@@ -1,5 +1,5 @@
-This is a Next..jsProject.
-I made this website to help myself and my collegues to send files to pfinting presses without connecting our whatsapp to thier pc and avoid people viewing our private messages.
+This is a Next. jsProject.
+I made this website to help myself and my collegues to send files to printing presses without connecting our whatsapp to thier pc to avoid people around viewing our private messages.
 
 ## Project Info
 I made the front-end with next.js and Tailwindcss. Just basic html, react stuffs with no animations.
@@ -10,9 +10,9 @@ I used Firebase as my backend, from authenticating users to storing files.
 First, git clone this repository:
 
 ```bash
-git clone 
+git clone https://github.com/Gatesvert81/sendMine.git
 ```
-Then open the foldre and run:
+Then open the folder and run:
 ```bash
 npm run dev
 # or
@@ -21,7 +21,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can feel free to edit this repo beginning fro the `pages/index.js`. There is only one page file
+You can feel free to edit this repo beginning from the `pages/index.js`. There is only one page file
 
 ## Context.js
 This file contains most functions of the app.
@@ -42,3 +42,4 @@ Feel free to text me and Add me up :
 ## Deploy on Vercel
 
 The project is deployed on vercel .
+- [sendmine.vercel.app](https://sendmine.vercel.app)
