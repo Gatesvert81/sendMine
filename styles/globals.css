@@ -1,16 +1,40 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   box-sizing: border-box;
+}
+
+
+@layer base {
+  body {
+    @apply min-h-screen p-0 m-0  uppercase bg-blue-200
+  }
+
+  a {
+    @apply text-inherit 
+  }
+
+  span {
+    @apply font-bold
+  }
+}
+
+@layer components {
+  .primary {
+    @apply bg-blue-500 rounded text-white font-semibold py-2 px-4 shadow-sm
+  }
+
+  .tetiary {
+    @apply bg-transparent rounded text-blue-500 font-semibold border-2 border-white py-2 px-4 shadow-sm
+  }
+
+  .fieldset {
+    @apply w-full flex flex-col gap-1
+  }
+
+  .text__input {
+    @apply w-full p-3 text-sm rounded
+  }
 }
