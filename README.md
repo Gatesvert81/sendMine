@@ -10,7 +10,7 @@ I used Firebase as my backend, from authenticating users to storing files.
 First, git clone this repository:
 
 ```bash
-git clone 
+git clone https://github.com/Gatesvert81/sendMine.git
 ```
 Then open the foldre and run:
 ```bash
