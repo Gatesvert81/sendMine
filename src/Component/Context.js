@@ -23,7 +23,8 @@ function Context({ children }) {
                 alert("You are signed in")
             })
             .catch((error) => {
-                alert(error.message)
+                alert(error.code)
+                cd(error)
             })
     }
 
@@ -36,7 +37,8 @@ function Context({ children }) {
                 alert("You are authenticated !")
             })
             .catch((error) => {
-                alert(error.message)
+                alert(error.code)
+                cd(error)
             })
     }
 

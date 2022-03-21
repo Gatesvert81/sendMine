@@ -56,9 +56,10 @@ function Navigation() {
 
     // }, [])
 
-    const cd = () => {
+    const cd = (err = false) => {
         setTimeout(() => {
             setLoading(false)
+            if(err) return 
             setSideNav(!sideNav)
         }, 1500);
     }
@@ -90,10 +91,12 @@ function Navigation() {
 
         if (passwordValue.length < 5) {
             alert("password is too short")
+            setLoading(false)
             return
         }
         if (passwordValue !== confirmPasswordValue) {
             alert("passwords must be the same")
+            setLoading(false)
             return
         }
 
